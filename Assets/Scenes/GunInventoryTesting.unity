@@ -844,8 +844,8 @@ MonoBehaviour:
   sprintMultiplier: 2
   isMoving: 0
   isCrouching: 0
-  crouchHeight: 1
-  standHeight: 2
+  crouchHeight: 0
+  standHeight: 0
 --- !u!54 &624722233
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -952,7 +952,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -1420,7 +1420,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b2e0b6a744f0be7438aecf8dc4f6edae,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.64058197
+      value: -0.393
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b2e0b6a744f0be7438aecf8dc4f6edae,
         type: 3}
@@ -1469,6 +1469,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1599241029587745273, guid: b2e0b6a744f0be7438aecf8dc4f6edae,
         type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1599241029587745273, guid: b2e0b6a744f0be7438aecf8dc4f6edae,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d48e9a381b2a82742ae4c9725a57662a, type: 2}
@@ -1477,6 +1482,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 27dbecab796789f4b8e0c173ac2528d3, type: 2}
+    - target: {fileID: 5866666021909216657, guid: b2e0b6a744f0be7438aecf8dc4f6edae,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d303002f18733cf4089694def69e5cc6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e0b6a744f0be7438aecf8dc4f6edae, type: 3}
 --- !u!1001 &2004632970
