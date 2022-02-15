@@ -852,6 +852,8 @@ MonoBehaviour:
   isCrouching: 0
   crouchHeight: 0
   standHeight: 0
+  M1911Anim: {fileID: 1823523690}
+  AK47Anim: {fileID: 0}
 --- !u!54 &624722233
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1073,6 +1075,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: M1911
       objectReference: {fileID: 0}
+    - target: {fileID: 902966672246213042, guid: 990d9f7fc1b879441a045988de7051c6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 990d9f7fc1b879441a045988de7051c6, type: 3}
 --- !u!4 &1065841910 stripped
@@ -1180,7 +1187,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17376
+  m_Name: pb_Mesh17370
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1375,6 +1382,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1977579935}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1823523690 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: b2e0b6a744f0be7438aecf8dc4f6edae,
+    type: 3}
+  m_PrefabInstance: {fileID: 1977579935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1934418146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,7 +1403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1934418147
 Transform:
   m_ObjectHideFlags: 0
