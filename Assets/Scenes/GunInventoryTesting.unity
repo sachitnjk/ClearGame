@@ -853,7 +853,6 @@ MonoBehaviour:
   crouchHeight: 0
   standHeight: 0
   M1911Anim: {fileID: 1823523690}
-  AK47Anim: {fileID: 0}
 --- !u!54 &624722233
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1078,7 +1077,7 @@ PrefabInstance:
     - target: {fileID: 902966672246213042, guid: 990d9f7fc1b879441a045988de7051c6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 990d9f7fc1b879441a045988de7051c6, type: 3}
