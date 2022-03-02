@@ -923,8 +923,8 @@ MonoBehaviour:
   sprintMultiplier: 2
   isMoving: 0
   isCrouching: 0
-  crouchHeight: 0
-  standHeight: 0
+  crouchHeight: 1
+  standHeight: 2
   M1911Anim: {fileID: 1823523690}
 --- !u!54 &624722233
 Rigidbody:
